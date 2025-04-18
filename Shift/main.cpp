@@ -1,4 +1,4 @@
-#include<Windows.h>
+п»ї#include<Windows.h>
 #include<iostream>
 using namespace std;
 
@@ -9,7 +9,7 @@ void main()
 	setlocale(LC_ALL, "");
 	const int n = 10;
 	int arr[n] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-	// Вывод исхрдного массива: 
+	// Р’С‹РІРѕРґ РёСЃС…СЂРґРЅРѕРіРѕ РјР°СЃСЃРёРІР°: 
 	for (int i = 0; i < n; i++)
 	{
 		cout << arr[i] << tab;
@@ -17,8 +17,8 @@ void main()
 	cout << endl;
 
 	int number_of_shifts;
-	cout << "Введите количество сдвигов: "; cin >> number_of_shifts;
-	// циклический сдвиг массива:
+	cout << "Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРґРІРёРіРѕРІ: "; cin >> number_of_shifts;
+	// С†РёРєР»РёС‡РµСЃРєРёР№ СЃРґРІРёРі РјР°СЃСЃРёРІР°:
 	for (int i = 0; i < number_of_shifts; i++)
 	{
 		int buffer = arr[0];
@@ -29,7 +29,7 @@ void main()
 		arr[n - 1] = buffer;
 		Sleep(500);
 
-		// Вывод сдвинутого массива: 
+		// Р’С‹РІРѕРґ СЃРґРІРёРЅСѓС‚РѕРіРѕ РјР°СЃСЃРёРІР°: 
 		for (int i = 0; i < n; i++)
 		{
 			cout << arr[i] << tab;
