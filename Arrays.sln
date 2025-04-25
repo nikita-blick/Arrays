@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2Darrays", "2Darrays\2Darra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Numerics", "Numerics\Numerics.vcxproj", "{571D938A-DCDA-4201-A8A2-508375186AD0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unique", "Unique\Unique.vcxproj", "{FAB1A6A2-0AFA-471C-B2CC-E77EAC6489E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{571D938A-DCDA-4201-A8A2-508375186AD0}.Release|x64.Build.0 = Release|x64
 		{571D938A-DCDA-4201-A8A2-508375186AD0}.Release|x86.ActiveCfg = Release|Win32
 		{571D938A-DCDA-4201-A8A2-508375186AD0}.Release|x86.Build.0 = Release|Win32
+		{FAB1A6A2-0AFA-471C-B2CC-E77EAC6489E5}.Debug|x64.ActiveCfg = Debug|x64
+		{FAB1A6A2-0AFA-471C-B2CC-E77EAC6489E5}.Debug|x64.Build.0 = Debug|x64
+		{FAB1A6A2-0AFA-471C-B2CC-E77EAC6489E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{FAB1A6A2-0AFA-471C-B2CC-E77EAC6489E5}.Debug|x86.Build.0 = Debug|Win32
+		{FAB1A6A2-0AFA-471C-B2CC-E77EAC6489E5}.Release|x64.ActiveCfg = Release|x64
+		{FAB1A6A2-0AFA-471C-B2CC-E77EAC6489E5}.Release|x64.Build.0 = Release|x64
+		{FAB1A6A2-0AFA-471C-B2CC-E77EAC6489E5}.Release|x86.ActiveCfg = Release|Win32
+		{FAB1A6A2-0AFA-471C-B2CC-E77EAC6489E5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
