@@ -19,12 +19,18 @@ void main()
 	int number_of_shifts;
 	cout << "Введите количество сдвигов: "; cin >> number_of_shifts;
 	// циклический сдвиг массива:
+	for (int i = 0; i < n; i++)
+	{
+		cout << arr[i] << tab;
+	}
+	cout << endl;
+
 	for (int i = 0; i < number_of_shifts; i++)
 	{
-		int buffer = arr[0];
-		for (int i = 1; i < n; i++)
+		int buffer = arr[n-1];
+		for (int i = n-1; i >= 0; i--)
 		{
-			arr[i - 1] = arr[i];
+			i - 1 >= 0 && i < n ? arr[i] = arr[i - 1] : arr[i] = buffer; //arr[i - 1] = arr[i];
 		}
 		arr[n - 1] = buffer;
 		Sleep(500);
